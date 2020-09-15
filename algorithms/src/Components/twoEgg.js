@@ -21,6 +21,8 @@ class TwoEgg extends Component{
         for (let i = 1; i <= 100; i++){
             building.push(i)
         }
+
+        //if building.length/2 <= this.state.floor{
   
         return(
             <div>
