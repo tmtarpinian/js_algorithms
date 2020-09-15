@@ -4,12 +4,14 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import SortingArray from './Components/SortingArrays';
+import TwoEgg from './Components/twoEgg';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <Router>
     <Route exact path="/" component={App} />
     <Route exact path="/sorting-exercises" component={SortingArray} />
+    <Route exact path="/two-egg" component={TwoEgg} />
   </Router>,
   document.getElementById('root')
 );
